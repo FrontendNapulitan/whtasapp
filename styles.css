@@ -1,0 +1,101 @@
+@import 'assets/fonts.css';
+body,html{
+    margin:0;
+    font-family: Helvetica-regular;
+}
+.badge{
+    background: #02B099;
+    border-radius: 100%;
+    height: 21px;
+    width: 21px;
+    padding: 1px 6px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    justify-content: center;
+}
+#wrapper{
+    width: 100svw;
+    min-height: 100svh;
+    display: flex;
+}
+#wrapper #wa-container{
+    min-width: 428px;
+    height: 100svh;
+    margin: 0 auto;
+}
+#wrapper #wa-container #top-bar{
+    min-height: 113px;
+    background: #017B6B;
+    width: 100%;
+    color: white;
+}
+#chatWrapper{
+    background: red;
+    width: 100%;
+    min-height: calc(100svh - 7.6rem);
+    height: calc(100svh - 7.6rem);
+    overflow-y: auto;
+}
+.chatList{
+    background: white;
+    border-bottom: .5px solid #3a4b553d;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 15px;
+}
+.chatList .imgAndInfo{
+    display: flex;
+    gap: 10px;
+}
+.chatList .timeAndUnreadMessages .badge{
+    color: white;
+}
+.chatList .timeAndUnreadMessages .time{
+    font-family: Helvetica-regular;
+    font-size: 13px;
+    font-weight: 400;
+    color: #3A4B55;
+}
+.chatList .timeAndUnreadMessages{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-left: auto;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.chatList .imgAndInfo .imgchatList{
+    border-radius: 100%;
+    overflow: hidden;
+    width: 66px;
+    height: 66px;
+}
+.chatList .imgAndInfo .nameAndStatus{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.chatList .imgAndInfo .nameAndStatus .containerNameAndStatus{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: auto 10px;
+}
+.chatList .imgAndInfo .nameAndStatus .containerNameAndStatus .name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #3A4B55;
+}
+.chatList .imgAndInfo .nameAndStatus .containerNameAndStatus .status{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #768289;
+}
