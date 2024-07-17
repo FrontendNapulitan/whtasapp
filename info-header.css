@@ -1,5 +1,14 @@
-#wrapper #wa-container #top-bar #info-header{
+#wrapper #wa-container #top-bar{
+    min-height: 113px;
+    background: #017B6B;
+    width: 100%;
+    color: white;
     box-shadow: 0px 3px 5px 0px #0000005c;
+    z-index: 10;
+    position: relative;
+}
+
+#wrapper #wa-container #top-bar #info-header{
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -8,6 +17,7 @@
     font-size: 20px;
     padding: 40px 20px 0px 20px;
     box-sizing: border-box;
+    z-index: 50;
 }
 #wrapper #wa-container #top-bar #info-header #tab-row .tab:first-of-type{
 border-bottom: 4px solid white;
