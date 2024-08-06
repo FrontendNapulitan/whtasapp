@@ -1,0 +1,6 @@
+.Chats_wrapper{
+    padding: 10px 15px;
+    box-sizing: border-box;
+    height: calc(100dvh - 113px);
+    overflow-y: auto;
+}

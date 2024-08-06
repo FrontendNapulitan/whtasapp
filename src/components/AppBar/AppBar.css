@@ -1,0 +1,76 @@
+.Appbar_wrapper{
+    color: white;
+    background: var(--primary);
+    width: 100%;
+    position: relative;
+    height: 113px;
+    display: flex;
+    box-shadow: 0px 2px 7px #00000052;
+}
+.Appbar_infoHeader{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 15px 0px 10px;
+}
+.Appbar_infoHeader .AppBar_topContainer{
+    display: flex;
+    width: 100%;
+}
+.Appbar_infoHeader .AppBar_topContainer .Appbar_appLogo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Appbar_infoHeader .AppBar_topContainer .Appbar_iconsContainer{
+    display: flex;
+    gap: 15px;
+}
+.Appbar_infoHeader .Appbar_tabs{
+    display: flex;
+    margin-top: auto;
+    height: 48px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.Appbar_infoHeader .Appbar_tabs .tab{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    height: 100%;
+    flex: 1;
+}
+.Appbar_infoHeader .Appbar_tabs .tab .badge{
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    display: flex;
+    font-size: 12px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+    background: var(--secondary);
+}
+.Appbar_infoHeader .Appbar_tabs .tab a{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+.Appbar_infoHeader .Appbar_tabs .tab:first-of-type{
+    flex: .3;
+}
+.Appbar_infoHeader .Appbar_tabs .tab .active{
+    box-shadow: 0px -3px 0px white inset;
+}
+.Appbar_infoHeader .AppBar_topContainer .Appbar_iconsContainer img{
+    cursor: pointer;
+}
+.Appbar_iconsContainer{
+    margin-left: auto;
+}
