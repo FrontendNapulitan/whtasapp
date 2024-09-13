@@ -4,7 +4,7 @@
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px 0px;
   box-sizing: border-box;
-  border-bottom: .5px solid #76828933
+  /* border-bottom: .5px solid #76828933 */
 }
 .Chatlist_wrapper .Chatlist_avatarWrapper {
     width: 66px;

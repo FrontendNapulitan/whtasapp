@@ -5,7 +5,6 @@ const Home = () => {
   return (
     <div className="Home_wrapper">
       <Appbar />
-
       <Outlet />
     </div>
   );
