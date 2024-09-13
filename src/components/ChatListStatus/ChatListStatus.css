@@ -1,0 +1,76 @@
+.Chatlist_wrapper {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 0px;
+    box-sizing: border-box;
+  }
+  .avatarWrapper{
+    position: relative;
+  }
+  .Chatlist_wrapper .avatarWrapper .Chatlist_avatarWrapper {
+    position: relative;
+      width: 66px;
+      height: 66px;
+      border-radius: 100%;
+      overflow: hidden;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+  }
+  .Chatlist_wrapper .avatarWrapper .Chatlist_avatarWrapper img{
+      max-height: 100%;
+  }
+  .Chatlist_wrapper .Chatlist_nameAndStatus {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 15px;
+  }
+  .Chatlist_wrapper .Chatlist_nameAndStatus .name {
+      font-size: 16px;
+      color:#3A4B55;
+  }
+  .Chatlist_wrapper .Chatlist_nameAndStatus .status {
+      font-size: 13px;
+      color:#768289;
+  }
+  .Chatlist_wrapper .Chatlist_nameAndStatus .status img{
+      margin-right: 5px;
+  }
+  .Chatlist_wrapper .Chatlist_timeAndBadge {
+      margin: 0px 15px 0px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+  }
+  .Chatlist_wrapper .Chatlist_timeAndBadge .time{
+      font-size: 13px;
+      color:#3A4B55;
+  }
+  .Chatlist_wrapper .Chatlist_timeAndBadge .badge{
+      font-size: 16px;
+      background: var(--secondary);
+      color:white;
+      padding:5px;
+      box-sizing: border-box;
+      border-radius: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .addStatusImg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 3px solid #EEF0F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 1000px;
+    overflow: hidden;
+    background: var(--secondary);
+    cursor: pointer;
+  }
