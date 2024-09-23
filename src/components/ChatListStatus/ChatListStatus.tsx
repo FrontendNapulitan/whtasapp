@@ -6,12 +6,12 @@ const ChatlistStatus = (chatListItem: IChatListStatusProps) => {
       {/* INIZIO IMMAGINE UTENTE */}
       <div className="avatarWrapper">
         <div
-          className="Chatlist_avatarWrapper"
-          style={
-            chatListItem.statusCount! > 0
-              ? { border: "4px solid var(--secondary)" }
-              : {}
-          }
+          className="Chatlist_avatarWrapperStatus"
+          // style={
+          //   chatListItem.statusCount! > 0
+          //     ? { border: "4px dashed var(--secondary)" }
+          //     : {}
+          // }
         >
           <img src={chatListItem.img} alt="avatar" />
         </div>

@@ -7,7 +7,11 @@
     align-items: center;
     justify-content: center;
     position:absolute;
-    bottom: 2rem;
-    right: 2rem;
+    /* bottom: 2rem;
+    right: 2rem; */
     cursor: pointer;
+}
+.FabButton_wrapper img{
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
 }

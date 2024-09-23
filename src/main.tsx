@@ -5,11 +5,13 @@ import './index.css'
 import Home from './pages/Home/Home.tsx'
 import Chats from './pages/Chats/Chats.tsx'
 import Status from './pages/Status/Status.tsx'
+import ChatDetail from './pages/ChatDetail/ChatDetail.tsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='' element={<Home />}>
-      <Route path='chats' element={<Chats />}></Route>
+      <Route path='chats' element={<Chats />} />
+      <Route path=':chatName' element={<ChatDetail />} />
       <Route path='status' element={<Status />}></Route>
       <Route path='calls' element={<Chats />}></Route>
       <Route path='community' element={<Chats />}></Route>

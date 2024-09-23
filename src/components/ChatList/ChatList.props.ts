@@ -4,5 +4,6 @@ export interface IChatlistItem{
     status: string,
     lastMessage: string,
     unreadMessages: number,
-    read: 'inviato' | 'consegnato' | 'letto'
+    read: 'inviato' | 'consegnato' | 'letto',
+    click?:(chatName:string) => void
   }

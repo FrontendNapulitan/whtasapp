@@ -85,5 +85,5 @@ export const chatListItems:Promise<IChatlistItem[]> = new Promise((resolve, reje
             }
       
           ])
-    }, 3000);
+    }, 1000);
 })

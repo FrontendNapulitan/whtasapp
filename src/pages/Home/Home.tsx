@@ -1,10 +1,11 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useParams } from "react-router-dom";
 import Appbar from "../../components/AppBar/AppBar";
 import "./Home.css";
 const Home = () => {
+  const {chatName} = useParams();
   return (
     <div className="Home_wrapper">
-      <Appbar />
+      {!chatName && <Appbar />}
       <Outlet />
     </div>
   );
